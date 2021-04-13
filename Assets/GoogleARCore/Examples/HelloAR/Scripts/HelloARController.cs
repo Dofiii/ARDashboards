@@ -36,6 +36,12 @@ namespace GoogleARCore.Examples.HelloAR
     /// </summary>
     public class HelloARController : MonoBehaviour
     {
+        [SerializeField]
+        private GameObject[] enabledOnPlacement;
+        
+        [HideInInspector]
+        public bool placementMode = false;
+
         /// <summary>
         /// The Depth Setting Menu.
         /// </summary>
@@ -83,6 +89,14 @@ namespace GoogleARCore.Examples.HelloAR
         /// otherwise false.
         /// </summary>
         private bool _isQuitting = false;
+
+        public void SetPlacementObjectsActive(bool state)
+        {
+            foreach (GameObject gameObject in enabledOnPlacement)
+            {
+                gameObject.SetActive(state);
+            }
+        }
 
         /// <summary>
         /// The Unity Awake() method.
@@ -146,8 +160,11 @@ namespace GoogleARCore.Examples.HelloAR
                     touch.position.x, touch.position.y, raycastFilter, out hit);
             }
 
-            if (foundHit)
+            if (foundHit && placementMode)
             {
+                placementMode = false;
+                SetPlacementObjectsActive(false);
+
                 // Use hit pose and camera pose to check if hittest is from the
                 // back of the plane, if it is, no need to create the anchor.
                 if ((hit.Trackable is DetectedPlane) &&

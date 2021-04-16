@@ -1993,6 +1993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arController: {fileID: 627916103}
   drawerPanel: {fileID: 1470870292}
+  drawerAnimator: {fileID: 1470870296}
 --- !u!1001 &800275909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4213,6 +4214,7 @@ GameObject:
   - component: {fileID: 1470870293}
   - component: {fileID: 1470870295}
   - component: {fileID: 1470870294}
+  - component: {fileID: 1470870296}
   m_Layer: 5
   m_Name: Drawer
   m_TagString: Untagged
@@ -4278,6 +4280,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470870292}
   m_CullTransparentMesh: 1
+--- !u!95 &1470870296
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470870292}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7fc0027bf0be53e47a9f0c7f340c4b95, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1481078941
 GameObject:
   m_ObjectHideFlags: 0

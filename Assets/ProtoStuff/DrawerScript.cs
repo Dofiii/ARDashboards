@@ -12,6 +12,11 @@ public class DrawerScript : MonoBehaviour
     [SerializeField]
     private GameObject drawerPanel;
 
+    [Space]
+
+    [SerializeField]
+    private Animator drawerAnimator;
+
     private void Start()
     {
         //Hide the panel at start in case it's left active
@@ -23,7 +28,8 @@ public class DrawerScript : MonoBehaviour
     /// </summary>
     public void ShowDrawerPanel()
     {
-        drawerPanel.SetActive(true);
+        //drawerPanel.SetActive(true);
+        drawerAnimator.SetBool("DrawerOpen", true);
     }
 
     /// <summary>
@@ -31,7 +37,8 @@ public class DrawerScript : MonoBehaviour
     /// </summary>
     public void HideDrawerPanel()
     {
-        drawerPanel.SetActive(false);
+        //drawerPanel.SetActive(false);
+        drawerAnimator.SetBool("DrawerOpen", false);
     }
 
     /// <summary>

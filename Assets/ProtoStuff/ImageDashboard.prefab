@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7368066462846940262}
   - component: {fileID: -6046602565305478099}
   - component: {fileID: 8177334179314432011}
+  - component: {fileID: -7063290428860939581}
   m_Layer: 5
   m_Name: ImageDashboard
   m_TagString: Untagged
@@ -129,6 +130,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reverseLookAt: 1
+--- !u!114 &-7063290428860939581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7368066462846940263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558a9ec11b8f0464b9ee6950b8a13082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashboardName: Image Dashboard
+  creationMessage: Dashboard has been created.
 --- !u!1 &7368066464818177852
 GameObject:
   m_ObjectHideFlags: 0

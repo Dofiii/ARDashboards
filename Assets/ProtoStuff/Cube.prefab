@@ -110,3 +110,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dashboardName: Cube
   creationMessage: Cube has been placed.
+  destroyMessage: Cube has been removed.

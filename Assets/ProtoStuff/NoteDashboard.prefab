@@ -314,7 +314,7 @@ GameObject:
   - component: {fileID: 8669238457116854544}
   - component: {fileID: 8669238457116854547}
   - component: {fileID: -6721479050787627165}
-  - component: {fileID: 9067247125477212424}
+  - component: {fileID: 6486878382094765868}
   m_Layer: 5
   m_Name: NoteDashboard
   m_TagString: Untagged
@@ -385,7 +385,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &8669238457116854547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reverseLookAt: 1
---- !u!114 &9067247125477212424
+--- !u!114 &6486878382094765868
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -429,3 +429,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dashboardName: Note Dashboard
+  creationMessage: Dashboard has been created.
+  destroyMessage: Dashboard has been removed.

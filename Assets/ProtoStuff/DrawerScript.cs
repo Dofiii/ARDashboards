@@ -47,6 +47,8 @@ public class DrawerScript : MonoBehaviour
     /// <param name="gameObject"></param>
     public void ChooseObject (GameObject gameObject)
     {
+        DestroyManager.INSTANCE.TurnDestroyModeOff();
+
         arController.InstantPlacementPrefab = gameObject;
         HideDrawerPanel();
         arController.placementMode = true;

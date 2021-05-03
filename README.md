@@ -12,6 +12,7 @@ If you want to get a little more in depth, it's as simple as cloning the repo an
 
 ## Usage
 ![Image of Application](https://cdn.discordapp.com/attachments/822388356834131978/836564418716106782/unknown.png)
+
 To add more things into your environment, press the + button and to remove them press the - button.
 The cog wheel is the button for the settings menu.
 

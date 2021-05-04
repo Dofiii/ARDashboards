@@ -1,6 +1,8 @@
 # ARDashboards
 Our application of extended workspace through your devices' cameras.
 
+Development has stopped on this project as it was made as a demo for a course.
+
 We are using Unity version 2020.3.0f1 for our project.
 
 ![example workflow](https://github.com/Xramm/ARDashboards/actions/workflows/main.yml/badge.svg)

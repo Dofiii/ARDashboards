@@ -18,6 +18,14 @@ To add more things into your environment, press the + button and to remove them 
 
 The cog wheel is the button for the settings menu.
 
+## Authors and Acknowledgment
+App made by ![Oliver](https://github.com/re-JECT-127)
+
+Repo's and apps we used to make it work.
+![ARCore by Google](https://developers.google.com/ar)
+![GameCI for Continuous Integration](https://game.ci/docs)
+
+
 ## Contribution
 You can just do whatever you want with the code and APK, we're using an MIT license.
 
